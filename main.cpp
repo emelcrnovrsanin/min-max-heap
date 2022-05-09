@@ -11,7 +11,7 @@ int main () {
     h.push(3);
     h.push(94);
     h.write();
-    cout<<endl;
+    cout<<"result:"<<endl;
 
     vector<int> v{39,9,3,1,8,10};
     MinMaxHeap<int> h1(v);
